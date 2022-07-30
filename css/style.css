@@ -1,0 +1,52 @@
+/* Création des polices  */
+@font-face
+{
+    font-family: Anastasia;
+    src: url(../polices/Anastasia/Anastasia.otf);
+}
+
+@font-face
+{
+    font-family: ETB;
+    src: url(../polices/Edu_TAS_Beginner/EduTASBeginner-VariableFont_wght.ttf);
+}
+
+
+body
+{
+    color: whitesmoke;
+    background-image: url("../images/fond.jpg");
+    padding-top: 100px; /* navbar fixé */
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* Différente utilisation de la police Anastasia */
+.anastasia
+{
+    font-family: "Anastasia", "ETB", Arial, Helvetica, sans-serif;
+}
+
+.anastasia-b
+{
+    font-family: "Anastasia", "ETB", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.anastasia-bu
+{
+    font-family: "Anastasia", "ETB", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+/* Pour les encadrés avec bordure arrondis */
+.eba
+{
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+}
