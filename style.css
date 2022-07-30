@@ -2,20 +2,20 @@
 @font-face
 {
     font-family: Anastasia;
-    src: url(../polices/Anastasia/Anastasia.otf);
+    src: url(./polices/Anastasia/Anastasia.otf);
 }
 
 @font-face
 {
     font-family: ETB;
-    src: url(../polices/Edu_TAS_Beginner/EduTASBeginner-VariableFont_wght.ttf);
+    src: url(./polices/Edu_TAS_Beginner/EduTASBeginner-VariableFont_wght.ttf);
 }
 
 
 body
 {
     color: whitesmoke;
-    background-image: url("../images/fond.jpg");
+    background-image: url("./images/fond.jpg");
     padding-top: 100px; /* navbar fixé */
 
     padding-left: 10px;
